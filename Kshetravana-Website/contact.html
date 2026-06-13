@@ -1,0 +1,165 @@
+<link rel="icon" type="image/png" href="assets/images/logo.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Kshetravana Agro & Aquatics</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo-section">
+        <img src="assets/images/logo.png" alt="logo">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<section class="services-preview">
+
+    <h2>Partner With Kshetravana Agro & Aquatics</h2>
+
+    <div class="card">
+
+        <h3>Farmer Land Enquiry Form</h3>
+
+        <form id="farmerForm">
+
+            <input
+                type="text"
+                name="farmer_name"
+                placeholder="Farmer Name"
+                required>
+
+            <br><br>
+
+            <input
+                type="text"
+                name="village"
+                placeholder="Village Name"
+                required>
+
+            <br><br>
+
+            <input
+                type="number"
+                name="acres"
+                placeholder="Acres Available"
+                required>
+
+            <br><br>
+
+            <label>
+                Water Source Available?
+            </label>
+
+            <br><br>
+
+            <select
+                name="water_source"
+                required>
+
+                <option value="">
+                    Select Option
+                </option>
+
+                <option>Yes</option>
+                <option>No</option>
+
+            </select>
+
+            <br><br>
+
+            <input
+                type="tel"
+                name="phone"
+                placeholder="Farmer Contact Number"
+                required>
+
+            <br><br>
+
+            <button
+                type="submit"
+                class="btn-primary">
+
+                Submit Enquiry
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="trust">
+
+    <h2>Contact Us</h2>
+
+    <div class="trust-grid">
+
+        <div>
+            📞 Phone: 8197045903
+        </div>
+
+        <div>
+            💬 WhatsApp: 8197045903
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Kshetravana Agro & Aquatics</h3>
+
+    <p>Farming the Future 🌱</p>
+
+    <div class="footer-contact">
+
+        <a href="tel:8197045903">
+            📞 8197045903
+        </a>
+
+        <a href="https://wa.me/918197045903">
+            WhatsApp
+        </a>
+
+    </div>
+
+    <small>
+        <a href="legal/land-policy.html">
+            Terms & Conditions
+        </a>
+    </small>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+(function(){
+emailjs.init("VXwgd_y-AfFqJY6EL");
+})();
+</script>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
